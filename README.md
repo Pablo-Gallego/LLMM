@@ -6,8 +6,8 @@
 	</head>
 	<body>
 		<div id="navegacion">
-			<div class="menu"><a href="file:///C:/xampp/htdocs/dashboard/index.html" target="_blank">Inicio</a></div>
-			<div class="menu"><a href="file:///C:/xampp/htdocs/dashboard/horario.html" target="_blank">Horario</a></p>
+			<div class="menu"><a href="file:///C:/xampp/htdocs/dashboard/pruebe/index.html" target="_blank">Inicio</a></div>
+			<div class="menu"><a href="file:///C:/xampp/htdocs/dashboard/pruebe/horario.html" target="_blank">Horario</a></p>
 			<div class="vacio"></div>
 		</div>
 		<h1 align="center">Hola chicos</h1>
