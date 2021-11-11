@@ -5,8 +5,3 @@ a:link { color: green; }
 a:visited	{ color: yellow; }	
 a:hover { color:red;}
 a:active { color:white; }
-
-#cabecera  { background-color: silver; }
-#1  { background-color: red; }
-#2  { background-color: yellow; }
-#3  { background-color: red; }
