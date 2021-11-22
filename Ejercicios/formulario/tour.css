@@ -1,0 +1,10 @@
+h1 { text-align: center; }
+a { text-decoration: underline; font-weight: bold; font-size: 18px; font-family: tahoma; }
+table { border: 4px double rgb(0, 0, 0); width: 70%; border-collapse: collapse; background-color : silver; margin: 15px 200px}
+table th, table td { border: 1px solid blue; padding: 0.8em; }
+
+
+/*estilo para pie de página*/
+.bloque_pie {background-color: silver; float: left ; width: 50%}
+.bloque_pie h3 { text-align: center; padding: 5px 0px ;}
+.bloque_pie p { text-align: center; padding: 5px 0px; color: red;}

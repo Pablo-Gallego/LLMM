@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+	<title>Contacta</title>
+  <link rel="stylesheet" type="text/css" href="hotel.css" />
+  </head>
+  <body>
+  <form enctype="text/plain">
+	  <div class="seccion1">
+      <h4>Ciudad</h4> 
+      <p><select name="Ciudad">
+      <option value="Sevilla">Sevilla</option>
+      <option value="Bilbao">Bilbao</option>
+      <option value="Madrid">Madrid</option>
+      <option value="Barcelona">Barcelona</option>
+      <option value="Malaga">Malaga</option>
+      <option value="Murcia">Murcia</option>
+      <option value="Valencia">Valencia</option>
+      <option value="Córdoba">Córdoba</option>
+      </select></p>
+
+      <h4>Datos personales</h4>
+      <p>Nombre: <input type="text" name="nombre" id="nombre"  value="Pablo"></p>
+      <p>Apellidos: <input type="text" name="Apellidos" value="Gallego Martínez"></p>
+      <p>Email: <input type="email" name="email" value="correofalso@gmail.com"></p>
+      <p>Teléfono: <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}" value="111-11-10-00"></p>
+      <p>Nº adultos: <input type="number" name="quantity" min="0" value="0"></p>
+      <p>Nº niños: <input type="number" name="quantity" min="0" value="0"></p>
+      
+      <h4>Régimen de alojamiento</h4>
+      <p><input type="radio" name="Régimen de alojamiento" value="Desayuno"> Desayuno</p>
+      <p><input type="radio" name="Régimen de alojamientoo" value="Media pensión"> Media pensión</p>
+      <p><input type="radio" name="Régimen de alojamiento" value="Pensión completa"> Pensión completa</p>
+      <p><input type="radio" name="Régimen de alojamientoo" value="Todo incluido"> Todo incluido</p>
+      <p><textarea name="Alergias" value="introduzca sus intolerancias">Alergias y otros datos de importancia.</textarea></p>
+    </div>
+
+	  <div class="pie_pagina">
+      <div class="bloque_pie">
+        <h4>Otros: </h4>
+        <p><a href="tour.html"> Volver</a></p>
+        <p><input type="reset" value="Reset"></p>
+        <p><input type="submit" value="Enviar"> </p>
+        
+      </div>
+    </div>
+    <div class="vacio"></div>
+   </form>  
+ </body>
+</html>
