@@ -1,115 +1,214 @@
-<!DOCTYPE html> 
-    <head> 
-        <title>Tour 2</title> 
-		<link rel="stylesheet" type="text/css" href="tour.css"/>
-        
-        <style>
-            body {
-                background-color: yellowgreen;
-            }
-            table {
-                text-align: center;
-            }
-            aside {
+<!DOCTYPE html>
+
+<head>
+    <title>Tour 2</title>
+    <link rel="stylesheet" type="text/css" href="tour.css" />
+    <style>
+        body {
+            background-color: yellowgreen;
+        }
+
+        table {
+            text-align: center;
+        }
+
+        aside {
             width: 20%;
-                padding-left: 15px;
-                margin-right: 15px;
-                margin-top: 55px;
-                float: left;
-                font-style: italic;
-                background-color: lightgray;
-            }
-            article {
-                background-color: yellow;
-            }
-            header {
-                text-align: center;
-                background-color: rgb(33, 90, 0);
-            }
-        </style>
-    </head> 
-    <body> 
-        <header><div class="menu"><a href="hotel.html">Contactanos</a></div> </header>
-        <h1>Efectos imagenes</h1>
-        <aside>
-            <li><a href="#Sevilla">Sevilla</a></li><hr>
-            <li><a href="#Bilbao">Bilbao</a></li><hr>
-            <li><a href="#Madrid">Madrid</a></li><hr> 
-            <li><a href="#Barcelona">Barcelona</a></li><hr>
-            <li><a href="#Malaga">Malaga</a></li><hr>
-            <li><a href="#Murcia">Murcia</a></li><hr>
-            <li><a href="#Valencia">Valencia</a></li><hr> 
+            padding-left: 15px;
+            margin-right: 15px;
+            margin-top: 55px;
+            float: left;
+            font-style: italic;
+        }
+
+        article {
+            background-color: yellow;
+        }
+
+        header {
+            background-color: rgb(33, 90, 0);
+            padding-bottom: 15px;
+        }
+
+        ul {
+            list-style-type: none;
+            width: 100px;
+            background-color: #f1f1f1;
+        }
+
+        li {
+            text-align: center;
+            border-bottom: 1px solid #555;
+        }
+
+        li a {
+            display: block;
+            color: #000;
+            padding: 8px 0px;
+            text-decoration: none;
+        }
+
+        li a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a class="active" href="hotel.html">Contactanos</a></li>
+            <li><a href="#Sevilla">Sevilla</a></li>
+            <li><a href="#Bilbao">Bilbao</a></li>
+            <li><a href="#Madrid">Madrid</a></li>
+            <li><a href="#Barcelona">Barcelona</a></li>
+            <li><a href="#Malaga">Malaga</a></li>
+            <li><a href="#Murcia">Murcia</a></li>
+            <li><a href="#Valencia">Valencia</a></li>
             <li><a href="#Cordoba">Córdoba</a></li>
-        </aside>
-        <table> 
-			<caption>Tour</caption>
-            <tr> 
-                <td><a href="#Sevilla">Sevilla</a></td> 
-                <td><a href="#Bilbao">Bilbao</a></td>
-                <td><a href="#Madrid">Madrid</a></td> 
-                <td><a href="#Barcelona">Barcelona</a></td>
-            </tr> 
-            <tr> 
-                <td><abbr title="Este es el Parque Maria Luisa de Sevilla, haz click para ir a la oficina de turismo"><a href="https://www.visitasevilla.es/info-util/oficina-de-turismo" target="_blank"><img width="200px" height="100px" src="img/sevilla.jpg" alt="Casco historico"></abbr></td>
-                <td><abbr title="Este es el Guggenheim de Bilbao, haz click para ir a la oficina de turismo"><a href="https://turismo.euskadi.eus/es/oficinas-turismo/oficina-de-turismo-bilbao-bizkaia/aa30-12375/es/?utm_source=google&utm_medium=cpc&utm_campaign=Invierno_Search&utm_content=Inv_Dinamico_Search&gclid=CjwKCAiAp8iMBhAqEiwAJb94z5tIevzdC97nvhgs8iBOUN1-K8tsMVNjws5V45abpGC3A5Vyou1NPhoCtnEQAvD_BwE" target="_blank"><img width="200px" height="100px" src="img/bilbao.jpg"></abbr></td>
-                <td><abbr title="Este es el Casco antiguo de Madrid, haz click para ir a la oficina de turismo"><a href="https://www.esmadrid.com/centros-de-informacion-turistica" target="_blank"><img width="200px" height="100px" src="img/madrid.jpg"></abbr></td>
-                <td><abbr title="Esta es la Sagrada familia de barcelona, haz click para ir a la oficina de turismo"><a href="https://www.barcelonaturisme.com/wv3/es/page/38/puntos-de-informacion-turistica.html" target="_blank"><img width="200px" height="100px" src="img/barcelona.jpg"></abbr></td>
-            </tr> 
-            <tr> 
-                <td><a href="#Malaga">Malaga</a></td>
-                <td><a href="#Murcia">Murcia</a></td>
-                <td><a href="#Valencia">Valencia</a></td> 
-                <td><a href="#Cordoba">Córdoba</a></td>
-            </tr> 
-            <tr> 
-                <td><abbr title="Este es el Casco antiguo de Malaga, haz click para ir a la oficina de turismo"><a href="http://www.malagaturismo.com/es/secciones/oficinas-y-quioscos-de-informacion-turistica/26" target="_blank"><img width="200px" height="100px" src="img/malaga.jpg"></abbr></td>
-                <td><abbr title="Este es el Anfiteatro romano de Murcia, haz click para ir a la oficina de turismo"><a href="https://www.turismodemurcia.es/es/oficinas-turismo" target="_blank"><img width="200px" height="100px" src="img/murcia.jpg"></abbr></td>
-                <td><abbr title="Esta es la cuidad de las ciencias de Valencia, haz click para ir a la oficina de turismo"><a href="https://www.visitvalencia.com/planifica-tu-viaje-a-valencia/oficinas-de-turismo-valencia" target="_blank"><img width="200px" height="100px" src="img/valencia.jpg"></abbr></td>
-                <td><abbr title="Esta es la Mezquita de cordoba, haz click para ir a la oficina de turismo"><a href="https://www.turismodecordoba.org/oficinas-de-turismo-1" target="_blank"><img width="200px" height="100px" src="img/cordoba.jpg"></abbr></td>
-            </tr> 
-        </table>
-        
-        <article id=Sevilla><h2>Sevilla</h2> <p>Es un municipio y una ciudad de España, capital de la provincia homónima y de Andalucía.​ 
-                Contaba con 691 395 habitantes en 2020.</p></article><hr>
 
-        <article id=Bilbao><h2>Bilbao</h2> <p>Es un municipio situado en el norte de España y una villa de dicho municipio, 
-                capital de la provincia y territorio histórico de Vizcaya, en la comunidad autónoma del País Vasco.</p></article><hr>
+        </ul>
+    </header>
+    <h1>Efectos imagenes</h1>
+    <aside>
+        <ul>
+            <li><a class="active" href="hotel.html">Contactanos</a></li>
+            <li><a href="#Sevilla">Sevilla</a></li>
+            <li><a href="#Bilbao">Bilbao</a></li>
+            <li><a href="#Madrid">Madrid</a></li>
+            <li><a href="#Barcelona">Barcelona</a></li>
+            <li><a href="#Malaga">Malaga</a></li>
+            <li><a href="#Murcia">Murcia</a></li>
+            <li><a href="#Valencia">Valencia</a></li>
+            <li><a href="#Cordoba">Córdoba</a></li>
+        </ul>
+    </aside>
+    <table>
+        <caption>Tour</caption>
+        <tr>
+            <td><a href="#Sevilla">Sevilla</a></td>
+            <td><a href="#Bilbao">Bilbao</a></td>
+            <td><a href="#Madrid">Madrid</a></td>
+            <td><a href="#Barcelona">Barcelona</a></td>
+        </tr>
+        <tr>
+            <td><abbr title="Este es el Parque Maria Luisa de Sevilla, haz click para ir a la oficina de turismo"><a
+                        href="https://www.visitasevilla.es/info-util/oficina-de-turismo" target="_blank"><img
+                            width="200px" height="100px" src="img/sevilla.jpg" alt="Casco historico"></abbr></td>
+            <td><abbr title="Este es el Guggenheim de Bilbao, haz click para ir a la oficina de turismo"><a
+                        href="https://turismo.euskadi.eus/es/oficinas-turismo/oficina-de-turismo-bilbao-bizkaia/aa30-12375/es/?utm_source=google&utm_medium=cpc&utm_campaign=Invierno_Search&utm_content=Inv_Dinamico_Search&gclid=CjwKCAiAp8iMBhAqEiwAJb94z5tIevzdC97nvhgs8iBOUN1-K8tsMVNjws5V45abpGC3A5Vyou1NPhoCtnEQAvD_BwE"
+                        target="_blank"><img width="200px" height="100px" src="img/bilbao.jpg"></abbr></td>
+            <td><abbr title="Este es el Casco antiguo de Madrid, haz click para ir a la oficina de turismo"><a
+                        href="https://www.esmadrid.com/centros-de-informacion-turistica" target="_blank"><img
+                            width="200px" height="100px" src="img/madrid.jpg"></abbr></td>
+            <td><abbr title="Esta es la Sagrada familia de barcelona, haz click para ir a la oficina de turismo"><a
+                        href="https://www.barcelonaturisme.com/wv3/es/page/38/puntos-de-informacion-turistica.html"
+                        target="_blank"><img width="200px" height="100px" src="img/barcelona.jpg"></abbr></td>
+        </tr>
+        <tr>
+            <td><a href="#Malaga">Malaga</a></td>
+            <td><a href="#Murcia">Murcia</a></td>
+            <td><a href="#Valencia">Valencia</a></td>
+            <td><a href="#Cordoba">Córdoba</a></td>
+        </tr>
+        <tr>
+            <td><abbr title="Este es el Casco antiguo de Malaga, haz click para ir a la oficina de turismo"><a
+                        href="http://www.malagaturismo.com/es/secciones/oficinas-y-quioscos-de-informacion-turistica/26"
+                        target="_blank"><img width="200px" height="100px" src="img/malaga.jpg"></abbr></td>
+            <td><abbr title="Este es el Anfiteatro romano de Murcia, haz click para ir a la oficina de turismo"><a
+                        href="https://www.turismodemurcia.es/es/oficinas-turismo" target="_blank"><img width="200px"
+                            height="100px" src="img/murcia.jpg"></abbr></td>
+            <td><abbr
+                    title="Esta es la cuidad de las ciencias de Valencia, haz click para ir a la oficina de turismo"><a
+                        href="https://www.visitvalencia.com/planifica-tu-viaje-a-valencia/oficinas-de-turismo-valencia"
+                        target="_blank"><img width="200px" height="100px" src="img/valencia.jpg"></abbr></td>
+            <td><abbr title="Esta es la Mezquita de cordoba, haz click para ir a la oficina de turismo"><a
+                        href="https://www.turismodecordoba.org/oficinas-de-turismo-1" target="_blank"><img width="200px"
+                            height="100px" src="img/cordoba.jpg"></abbr></td>
+        </tr>
+    </table>
 
-        <article id=Madrid><h2>Madrid</h2> <p>Es un municipio y una ciudad de España, con categoría histórica de villa. 
-                Constituye la capital del Estado​ y de la Comunidad de Madrid. 
-                En su término municipal, el más poblado de España, viven 3 334 730 personas empadronadas.</p></article><hr>
+    <article id=Sevilla>
+        <h2>Sevilla</h2>
+        <p>Es un municipio y una ciudad de España, capital de la provincia homónima y de Andalucía.​
+            Contaba con 691 395 habitantes en 2020.</p>
+    </article>
+    <hr>
 
-        <article id=Barcelona><h2>Barcelona</h2> <p>Es una ciudad española, capital de la comunidad autónoma de Cataluña, 
-                de la provincia homónima y de la comarca del Barcelonés.</p></article><hr>
+    <article id=Bilbao>
+        <h2>Bilbao</h2>
+        <p>Es un municipio situado en el norte de España y una villa de dicho municipio,
+            capital de la provincia y territorio histórico de Vizcaya, en la comunidad autónoma del País Vasco.</p>
+    </article>
+    <hr>
 
-        <article id=Malaga><h2>Malaga</h2> <p>Es una ciudad y municipio de España, capital de la provincia homónima y ubicada en Andalucía, al sur del país.
-                Con una población de 578 460 habitantes a 1 de enero de 2020,​ es la segunda ciudad más poblada de Andalucía 
-                y la sexta de España, así como la mayor de entre las que no son capitales autonómicas.</p></article><hr>
-        
-        <article id=Murcia><h2>Murcia</h2> <p>Es una ciudad española, capital del municipio del mismo nombre y de la Región de Murcia. 
-                Es el centro de la comarca de la Huerta de Murcia y de su área metropolitana. 
-                Está situada en el sureste de la península ibérica, a orillas del río Segura, 
-                en la denominada depresión prelitoral murciana, a 40 kilómetros del mar Mediterráneo.</p></article><hr>
+    <article id=Madrid>
+        <h2>Madrid</h2>
+        <p>Es un municipio y una ciudad de España, con categoría histórica de villa.
+            Constituye la capital del Estado​ y de la Comunidad de Madrid.
+            En su término municipal, el más poblado de España, viven 3 334 730 personas empadronadas.</p>
+    </article>
+    <hr>
 
-        <article id=Valencia><h2>Valencia</h2> <p>Es un municipio​ y una ciudad de España, capital de la provincia homónima 
-                y de la Comunidad Valenciana. Con una población de 801 545 habitantes.</p></article><hr>
+    <article id=Barcelona>
+        <h2>Barcelona</h2>
+        <p>Es una ciudad española, capital de la comunidad autónoma de Cataluña,
+            de la provincia homónima y de la comarca del Barcelonés.</p>
+    </article>
+    <hr>
 
-        <article id=Cordoba><h2>Córdoba</h2> <p>Es una ciudad y municipio español en Andalucía, capital de la provincia homónima, 
-                situada en una depresión a orillas del Guadalquivir y al pie de Sierra Morena.</p></article><hr>
-    
-    <footer> 
-	<div class="bloque_pie">
-        <h3>Más información</h3>
-        <p><a href="https://github.com/pabloning/pruebe">Enlace github</a></p>
-        <p>Pablo Gallego</p>
+    <article id=Malaga>
+        <h2>Malaga</h2>
+        <p>Es una ciudad y municipio de España, capital de la provincia homónima y ubicada en Andalucía, al sur del
+            país.
+            Con una población de 578 460 habitantes a 1 de enero de 2020,​ es la segunda ciudad más poblada de Andalucía
+            y la sexta de España, así como la mayor de entre las que no son capitales autonómicas.</p>
+    </article>
+    <hr>
+
+    <article id=Murcia>
+        <h2>Murcia</h2>
+        <p>Es una ciudad española, capital del municipio del mismo nombre y de la Región de Murcia.
+            Es el centro de la comarca de la Huerta de Murcia y de su área metropolitana.
+            Está situada en el sureste de la península ibérica, a orillas del río Segura,
+            en la denominada depresión prelitoral murciana, a 40 kilómetros del mar Mediterráneo.</p>
+    </article>
+    <hr>
+
+    <article id=Valencia>
+        <h2>Valencia</h2>
+        <p>Es un municipio​ y una ciudad de España, capital de la provincia homónima
+            y de la Comunidad Valenciana. Con una población de 801 545 habitantes.</p>
+    </article>
+    <hr>
+
+    <article id=Cordoba>
+        <h2>Córdoba</h2>
+        <p>Es una ciudad y municipio español en Andalucía, capital de la provincia homónima,
+            situada en una depresión a orillas del Guadalquivir y al pie de Sierra Morena.</p>
+    </article>
+    <hr>
+
+    <footer>
+        <div class="bloque_pie">
+            <h3>Más información</h3>
+            <p><a href="https://github.com/pabloning/pruebe">Enlace github</a></p>
+            <p>Pablo Gallego</p>
+        </div>
+        <div class="bloque_pie">
+            <h3><a href="hotel.html">Contratalo</a></h3>
+            <p>Email: correofalso@gmail.com</p>
+            <p>Teléfono: 111-11-10-00</p>
+        </div>
+    </footer>
+    <div class="vacio"></div>
     </div>
-    <div class="bloque_pie">
-        <h3><a href="hotel.html">Contratalo</a></h3>
-        <p>Email: correofalso@gmail.com</p>
-        <p>Teléfono: 111-11-10-00</p>
-    </div>
-    </footer> 
-	<div class="vacio"></div>
-   </div> 
-    </body> 
+</body>
+
 </html>

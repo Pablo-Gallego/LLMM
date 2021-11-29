@@ -1,5 +1,4 @@
 h1 { text-align: center; }
-a { text-decoration: underline; font-weight: bold; font-size: 18px; font-family: tahoma; }
 table { border: 4px double rgb(0, 0, 0); width: 70%; border-collapse: collapse; background-color : silver; margin: 15px 200px}
 table th, table td { border: 1px solid blue; padding: 0.8em; }
 
