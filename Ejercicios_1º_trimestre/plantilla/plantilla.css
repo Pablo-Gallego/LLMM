@@ -1,0 +1,23 @@
+/*estilo inicial reset*/
+* { margin: 0 auto; padding: 0; text-align: center;}
+a { text-decoration:none;}
+
+/*estilo para la cabecera*/
+#cabecera {background-color : red ; padding : 20px 10px; }
+#cabecera img {float: left; width: 70 ; margin-left: 60px; }
+#cabecera h1 {text-align : center ; color: rgb(0, 0, 255) ; font-size : 40px ; font-family : Arial ; text-decoration : underline}
+#cabecera h2 {text-align : center ; color: green ; font-size : 25px ; font-family : Arial}
+
+/*estilo para barra de navegación*/
+#navegacion { background-color: silver; padding: 30px 30px;}
+.menu {float: left ; padding: 0px 120px; margin-bottom: 10px}
+.menu a { color: yellow ; background-color: red }
+.menu a:hover { color: rgb(0, 0, 255) ;}
+.menu a:active { color: white ;}
+.vacio { clear: both; }
+
+/*estilo para pie de página*/
+#pie_pagina { background-color: LightSteelBlue;}
+.bloque_pie { float: left ; width: 50%}
+.bloque_pie h3 { padding: 5px 0px ;}
+.bloque_pie p { padding: 5px 0px}

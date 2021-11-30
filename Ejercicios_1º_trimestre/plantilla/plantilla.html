@@ -1,0 +1,75 @@
+<html>
+
+<head>
+	<title>Plantilla</title>
+	<link rel="stylesheet" type="text/css" href="plantilla.css" />
+	<script>
+		var propietario, desarrollo;
+		desarrollo = "en desarrollo";
+		propietario = "Pablo Gallego";
+		alert("Esta plantilla es de: " + propietario);
+		alert("Esta plantilla esta: " + desarrollo);
+	</script>
+</head>
+<style>
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 100%;
+		padding-inline-start: 0px;
+
+	}
+
+	li {
+		text-align: center;
+		border: 1px solid #555;
+	}
+
+	li a {
+		display: block;
+		color: #000;
+		padding: 8px 10px;
+		text-decoration: none;
+	}
+
+	li a.active {
+		background-color: #04AA6D;
+		color: white;
+	}
+
+	li a:hover:not(.active) {
+		background-color: #555;
+		color: white;
+	}
+</style>
+</head>
+
+<body>
+	<ul>
+		<li><a class="active" href="../../index.html" target="_blank">Inicio</a></li>
+		<li><a href="../tablas/horario.html" target="_blank">Horario</a></li>
+		<li><a href="../formularios/tour 2.html" target="_blank">Tour</a></li>
+		<li><a href="../listas/RecetaTortilla.html" target="_blank">Receta Tortilla</a></li>
+		<li><a href="plantilla.html" target="_blank">Plantilla</a></li>
+	</ul>
+	<div id="principal">
+
+	</div>
+	<div id="pie_pagina">
+		<div class="bloque_pie">
+			<h3>Sobre este sitio</h3>
+			<p>Propiedad de : Pablo</p>
+			<p>Pablo Gallego</p>
+		</div>
+		<div class="bloque_pie">
+			<h3>Contactame</h3>
+			<p>Email : pablo.setentasiete@gmail.com</p>
+			<p>Teléfono: 682-87-61-41</p>
+		</div>
+		<div class="vacio"></div>
+	</div>
+</body>
+
+</html>

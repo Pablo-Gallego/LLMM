@@ -1,0 +1,11 @@
+.seccion1 {background-color: silver; text-align: center;  padding: 5px 585px}
+.seccion1 h4 {background-color: rgb(255, 0, 0); text-align: center; }
+
+
+a:link { color: rgb(0, 0, 0); }
+a:visited	{ color: yellow; }		
+a:hover { color:red;}
+a:active { color:white; }
+
+.bloque_pie {background-color: rgb(0, 121, 36); text-align: center;  padding: 5px 585px}
+.bloque_pie p {background-color: rgb(179, 69, 69); float: center; }
