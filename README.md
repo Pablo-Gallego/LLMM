@@ -10,15 +10,12 @@
             margin-right: 30px;
             margin-left: 30px;
         }
-
         .navegation li a {
             display: block;
         }
     </style>
 </head>
-
 <body>
-    
     <div id="navegacion">
         <li><a href="index.html" target="_blank">Inicio</a></li>
         <li><a href="Ejercicios_1º_trimestre/tablas/horario.html" target="_blank">Horario</a></li>
