@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rss version="2.0">
+<!--Para el trabajo creamos 2 o 3-->
+<channel>
+<title>W3CSchool Home Page</title>
+<link>https://pabloning.github.io/LLMM/</link>
+<description>Canal de informacion de Pablo Gallego Martínez</description>
+<item>
+<title>Mi primera noticia</title>
+<link>https://www.eltiempo.es</link>
+<description>Esta es la primera noticia publicada en mi pagina web</description>
+</item>
+<item>
+<title>Mi primera noticia</title>
+<link>https://www.embargosalobestia.com</link>
+<description>Esta es la segunda noticia publicada en mi pagina web</description>
+</item>
+<item>
+<title>Mi primera noticia</title>
+<link>https://www.embargosalobestia.com</link>
+<description>Esta es la tercera noticia publicada en mi pagina web</description>
+</item>
+</channel>
+</rss>
