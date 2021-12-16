@@ -14,7 +14,8 @@
             <title>Mi segunda noticia (modificada)</title>
             <link>https://www.rtve.es/noticias/</link>
             <imagen enlace="RTVE.png">RTVE.png</imagen>
-            <description>Esto es la noticia modificada</description>
+            <url>https://img2.rtve.es/css/rtve.commons/rtve.header.footer/i/logoRTVE.png</url>
+            <description>Esto es la segunda noticia modificada</description>
         </item>
         <item>
             <title>Mi tercera noticia</title>
