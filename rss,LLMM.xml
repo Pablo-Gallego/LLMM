@@ -13,7 +13,7 @@
         <item>
             <title>Mi segunda noticia (modificada)</title>
             <link>https://www.rtve.es/noticias/</link>
-            <url>https://static.wikia.nocookie.net/logopedia/images/a/a0/RTVE.es_2008.svg/revision/latest/scale-to-width-down/250?cb=20200221174427</url>
+            <imagen enlace="imagenes/logo.jpg"></imagen>
             <description>Esto es la noticia modificada</description>
         </item>
         <item>
