@@ -1,47 +1,58 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss xmlns:media="http://search.yahoo.com/mrss/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+
+            
     <channel>
         <title>Pablo News</title>
         <link>https://pabloning.github.io/LLMM/</link>
         <description>Canal de informacion de Pablo Gallego Martinez</description>
+
         <item>
-            <guid>1ª Noticia</guid>
-            <title>Mi Primera Noticia</title>
+            <guid>1ªNoticia</guid>
+            <title>Primera Noticia</title>
             <link>https://www.eltiempo.es</link>
-            <author>Pablo Gallego</author>
+            <dc:creator>Pablo Gallego</dc:creator>
             <pubDate>Lunes, 3 Enero 2022</pubDate>
-            <description>Esta es la primera noticia publicada en mi pagina web, la cual trata sobre el tiempo</description>
             <category>Información</category>
-            <image>
-                <url>https://findvectorlogo.com/wp-content/uploads/2019/08/eltiempo-es-vector-logo.png</url>
-                <meta property="og:image" content="https://findvectorlogo.com/wp-content/uploads/2019/08/eltiempo-es-vector-logo.png"/>
-            </image>
+            <description>
+                <![CDATA[ <img src="https://findvectorlogo.com/wp-content/uploads/2019/08/eltiempo-es-vector-logo.png"><br><br>
+                <p>
+                    Esta es la primera noticia publicada en mi pagina web, la cual trata sobre el tiempo.
+                </p><br/><br/>]]>
+            </description>
         </item>
+
         <item>
-            <guid>2ª Noticia</guid>
-            <title>Mi Segunda Noticia</title>
+            <guid>2ªNoticia</guid>
+            <title>Segunda Noticia</title>
             <link>https://www.rtve.es/noticias/</link>
-            <author>Pablo Gallego</author>
+            <dc:creator>Pablo Gallego</dc:creator>
             <pubDate>Lunes, 3 Enero 2022</pubDate>
-            <description>Esta es la segunda noticia publicada en mi pagina web la cual esta conectada a RTVE</description>
             <category>Información</category>
-            <image>
-                <url>https://img2.rtve.es/css/rtve.commons/rtve.header.footer/i/logoRTVE.png</url>
-                <meta property="og:image" content="https://img2.rtve.es/css/rtve.commons/rtve.header.footer/i/logoRTVE.png" />
-            </image>
+            <description>
+                <![CDATA[ <img src="https://img2.rtve.es/css/rtve.commons/rtve.header.footer/i/logoRTVE.png"><br><br>
+                <p>
+                    Esta es la segunda noticia publicada en mi pagina web la cual esta conectada a RTVE.
+                </p><br/><br/>]]>
+            </description>
         </item>
+
         <item>
-            <guid>3ª Noticia</guid>
-            <title>Mi Tercera Noticia</title>
+            <guid>3ªNoticia</guid>
+            <title>Tercera Noticia</title>
             <link>https://www.xataka.com/</link>
-            <author>Pablo Gallego</author>
+            <dc:creator>Pablo Gallego</dc:creator>
             <pubDate>Lunes, 3 Enero 2022</pubDate>
             <description>Esta es la tercera noticia publicada en mi pagina web, con informacion sobre electronica actual</description>
             <category>Información</category>
-            <image>
-                <url>https://image.flaticon.com/icons/png/512/23/23365.png</url>
-                <meta property="og:image" content="https://image.flaticon.com/icons/png/512/23/23365.png" />
-            </image>
+            <description>
+                <![CDATA[ <img src="https://image.flaticon.com/icons/png/512/23/23365.png"><br><br>
+                <p>
+                    Esta es la tercera noticia publicada en mi pagina web, con informacion sobre electronica actual.
+                </p><br/><br/>]]>
+            </description>
         </item>
     </channel>
 </rss>
