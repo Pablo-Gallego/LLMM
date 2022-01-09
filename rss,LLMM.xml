@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
+    <language>es-es</language>
     <channel>
         <title>Pablo News</title>
         <link>https://pabloning.github.io/LLMM/</link>
@@ -8,16 +9,15 @@
 
         <item>
             <guid>1ªNoticia</guid>
-            <title>Primera Noticia</title>
+            <title>El tiempo.</title>
+            <guid>1ª Noticia</guid>
             <link>https://www.eltiempo.es</link>
             <author>Pablo Gallego</author>
             <pubDate>Lunes, 3 Enero 2022</pubDate>
-            <description>Noticia publicada en mi pagina web, la cual trata sobre el tiempo</description>
+            <description>Noticia publicada en mi pagina web, la cual trata sobre el tiempo.</description>
             <category>Información</category>
             <image>
                 <url>https://findvectorlogo.com/wp-content/uploads/2019/08/eltiempo-es-vector-logo.png</url>
-                <title>Primera Noticia</title>
-                <link>https://www.eltiempo.es</link>
                 <meta property="og:image" content="https://findvectorlogo.com/wp-content/uploads/2019/08/eltiempo-es-vector-logo.png"/>
             </image>
         </item>
@@ -25,16 +25,14 @@
 
         <item>
             <guid>2ªNoticia</guid>
-            <title>Segunda Noticia</title>
+            <title>RTVE.</title>
             <link>https://www.rtve.es/noticias/</link>
             <author>Pablo Gallego</author>
             <pubDate>Lunes, 3 Enero 2022</pubDate>
-            <description>Noticia conectada a RTVE para mantenerse al tanto de lo que pasa en la actualidad</description>
+            <description>Noticia conectada a RTVE para mantenerse al tanto de lo que pasa en la actualidad.</description>
             <category>Información</category>
             <image>
                 <url>https://img2.rtve.es/css/rtve.commons/rtve.header.footer/i/logoRTVE.png</url>
-                <title>Segunda Noticia</title>
-                <link>https://www.rtve.es/noticias/</link>
                 <meta property="og:image" content="https://img2.rtve.es/css/rtve.commons/rtve.header.footer/i/logoRTVE.png" />
             </image>
         </item>
@@ -42,16 +40,14 @@
 
         <item>
             <guid>3ªNoticia</guid>
-            <title>Tercera Noticia</title>
+            <title>Xataka</title>
             <link>https://www.xataka.com/</link>
             <author>Pablo Gallego</author>
             <pubDate>Lunes, 3 Enero 2022</pubDate>
-            <description>Noticia con informacion sobre electronica actual, la cual es importante para nuestro ciclo</description>
+            <description>Noticia con informacion sobre electronica actual, la cual es importante para nuestro ciclo.</description>
             <category>Información</category>
             <image>
                 <url>https://image.flaticon.com/icons/png/512/23/23365.png</url>
-                <title>Tercera noticia</title>
-                <link>https://www.xataka.com/</link>
                 <meta property="og:image" content="https://image.flaticon.com/icons/png/512/23/23365.png" />
             </image>
         </item>
