@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
-    <language>es-es</language>
     <channel>
         <title>Pablo News</title>
         <link>https://pabloning.github.io/LLMM/</link>
@@ -10,7 +9,6 @@
         <item>
             <guid>1ªNoticia</guid>
             <title>Primera Noticia</title>
-            <guid>1ª Noticia</guid>
             <link>https://www.eltiempo.es</link>
             <author>Pablo Gallego</author>
             <pubDate>Lunes, 3 Enero 2022</pubDate>
@@ -58,3 +56,4 @@
             </image>
         </item>
     </channel>
+</rss>
