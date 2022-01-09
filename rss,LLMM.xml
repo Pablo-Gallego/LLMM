@@ -8,12 +8,10 @@
 
 
         <item>
-            <guid>1ªNoticia</guid>
-            <title>El tiempo.</title>
-            <guid>1ª Noticia</guid>
+            <guid>1 Noticia</guid>
+            <title>El tiempo</title>
             <link>https://www.eltiempo.es</link>
             <author>Pablo Gallego</author>
-            <pubDate>Lunes, 3 Enero 2022</pubDate>
             <description>Noticia publicada en mi pagina web, la cual trata sobre el tiempo.</description>
             <category>Información</category>
             <image>
@@ -24,11 +22,10 @@
 
 
         <item>
-            <guid>2ªNoticia</guid>
-            <title>RTVE.</title>
+            <guid>2 Noticia</guid>
+            <title>RTVE</title>
             <link>https://www.rtve.es/noticias/</link>
             <author>Pablo Gallego</author>
-            <pubDate>Lunes, 3 Enero 2022</pubDate>
             <description>Noticia conectada a RTVE para mantenerse al tanto de lo que pasa en la actualidad.</description>
             <category>Información</category>
             <image>
@@ -39,11 +36,10 @@
 
 
         <item>
-            <guid>3ªNoticia</guid>
+            <guid>3 Noticia</guid>
             <title>Xataka</title>
             <link>https://www.xataka.com/</link>
             <author>Pablo Gallego</author>
-            <pubDate>Lunes, 3 Enero 2022</pubDate>
             <description>Noticia con informacion sobre electronica actual, la cual es importante para nuestro ciclo.</description>
             <category>Información</category>
             <image>
