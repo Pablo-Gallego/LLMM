@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss xmlns:media="http://search.yahoo.com/mrss/"
-    xmlns:atom="http://www.w3.org/2005/Atom"
     xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
 
     <channel>
@@ -9,11 +8,10 @@
         <description>Canal de informacion de Pablo Gallego Martinez</description>
 
         <item>
-            <guid>1ªNoticia</guid>
+            <guid isPermaLink="false">https://www.eltiempo.es</guid>
             <title>Primera Noticia</title>
             <link>https://www.eltiempo.es</link>
             <dc:creator>Pablo Gallego</dc:creator>
-            <pubDate>Lunes, 3 Enero 2022</pubDate>
             <category>Información</category>
             <description>
                 <![CDATA[ <img src="https://findvectorlogo.com/wp-content/uploads/2019/08/eltiempo-es-vector-logo.png" style="width: 100%;"><div>Noticiario del tiempo en mi pagina web</div>]]>
@@ -23,11 +21,10 @@
         </item>
 
         <item>
-            <guid>2ªNoticia</guid>
+            <guid isPermaLink="false">https://www.rtve.es/noticias/</guid>
             <title>Segunda Noticia</title>
             <link>https://www.rtve.es/noticias/</link>
             <dc:creator>Pablo Gallego</dc:creator>
-            <pubDate>Lunes, 3 Enero 2022</pubDate>
             <category>Información</category>
             <description>
                 <![CDATA[ <img src="https://img2.rtve.es/css/rtve.commons/rtve.header.footer/i/logoRTVE.png" style="width: 100%;"><div>Noticiario de actualidad de RTVE en mi pagina web</div> ]]>
@@ -37,7 +34,7 @@
         </item>
 
         <item>
-            <guid>3ªNoticia</guid>
+            <guid isPermaLink="false">https://www.xataka.com/</guid>
             <title>Tercera Noticia</title>
             <link>https://www.xataka.com/</link>
             <dc:creator>Pablo Gallego</dc:creator>
