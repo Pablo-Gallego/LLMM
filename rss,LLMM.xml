@@ -9,7 +9,7 @@
 
         <item>
             <guid isPermaLink="false">https://www.eltiempo.es</guid>
-            <title>Primera Noticia</title>
+            <title>El tiempo</title>
             <link>https://www.eltiempo.es</link>
             <dc:creator>Pablo Gallego</dc:creator>
             <category>Información</category>
@@ -22,7 +22,7 @@
 
         <item>
             <guid isPermaLink="false">https://www.rtve.es/noticias/</guid>
-            <title>Segunda Noticia</title>
+            <title>RTVE</title>
             <link>https://www.rtve.es/noticias/</link>
             <dc:creator>Pablo Gallego</dc:creator>
             <category>Información</category>
@@ -35,7 +35,7 @@
 
         <item>
             <guid isPermaLink="false">https://www.xataka.com/</guid>
-            <title>Tercera Noticia</title>
+            <title>Xataka</title>
             <link>https://www.xataka.com/</link>
             <dc:creator>Pablo Gallego</dc:creator>
             <category>Información</category>
