@@ -29,7 +29,7 @@
             <dc:creator>Pablo Gallego</dc:creator>
             <category>Información</category>
             <description>
-                <![CDATA[ <img src="https://img2.rtve.es/css/rtve.commons/rtve.header.footer/i/logoRTVE.png" style="width: 100%;"><div>Noticiario de actualidad de RTVE en mi pagina web</div> ]]>
+                Noticiario de actualidad de RTVE en mi pagina web
             </description>
             <media:content url="https://img2.rtve.es/css/rtve.commons/rtve.header.footer/i/logoRTVE.png" medium="image"/>
         </item>
