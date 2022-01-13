@@ -16,9 +16,9 @@
             <description>
                 <![CDATA[ <img src="https://findvectorlogo.com/wp-content/uploads/2019/08/eltiempo-es-vector-logo.png" style="width: 100%;"><div>Noticiario del tiempo en mi pagina web</div>]]>
             </description>
-            <enclosure url="https://findvectorlogo.com/wp-content/uploads/2019/08/eltiempo-es-vector-logo.png" length="0" type="image/jpeg"/>
-            <media:content medium="image" url="https://findvectorlogo.com/wp-content/uploads/2019/08/eltiempo-es-vector-logo.png"/>
+            <media:content url="https://findvectorlogo.com/wp-content/uploads/2019/08/eltiempo-es-vector-logo.png" medium="image" width="550px" height="384px"/>
         </item>
+
 
         <item>
             <guid isPermaLink="false">https://www.rtve.es/noticias/</guid>
@@ -29,10 +29,10 @@
             <description>
                 <![CDATA[ <img src="https://img2.rtve.es/css/rtve.commons/rtve.header.footer/i/logoRTVE.png" style="width: 100%;"><div>Noticiario de actualidad de RTVE en mi pagina web</div> ]]>
             </description>
-            <enclosure url="https://img2.rtve.es/css/rtve.commons/rtve.header.footer/i/logoRTVE.png" length="0" type="image/jpeg"/>
-            <media:content medium="image" url="https://img2.rtve.es/css/rtve.commons/rtve.header.footer/i/logoRTVE.png"/>
+            <media:content url="https://img2.rtve.es/css/rtve.commons/rtve.header.footer/i/logoRTVE.png" medium="image" width="550px" height="384px"/>
         </item>
 
+        
         <item>
             <guid isPermaLink="false">https://www.xataka.com/</guid>
             <title>Xataka</title>
@@ -42,8 +42,7 @@
             <description>
                 <![CDATA[ <img src="https://image.flaticon.com/icons/png/512/23/23365.png" style="width: 100%;"><div>Noticiario de noticias en mi pagina web</div>]]>
             </description>
-            <enclosure url="https://image.flaticon.com/icons/png/512/23/23365.png" length="0" type="image/jpeg"/>
-            <media:content medium="image" url="https://image.flaticon.com/icons/png/512/23/23365.png"/>
+            <media:content url="https://image.flaticon.com/icons/png/512/23/23365.png" medium="image" width="550px" height="384px"/>
         </item>
     </channel>
 </rss>
