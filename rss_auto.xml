@@ -1,6 +1,53 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0"> 
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
     <channel>
-        
+        <title>COVID | Alemania, perpleja con España - AS.com</title>
+        <description>COVID | Alemania, perpleja con España - AS.com</description>
+        <pubDate>Sat, 15 Jan 2022 17:43:11 +0000</pubDate>
+        <link>https://as.com/diarioas/2022/01/14/actualidad/1642176540_238488.html</link>
+        <atom:link href="http://fetchrss.com/rss/61e307ccca5ef0660a52eda261e307afbeebdc570429ae12.xml" rel="self" type="application/rss+xml"/>
+        <generator>https://fetchrss.com</generator>
+        <image>
+            <link>https://as.com/diarioas/2022/01/14/actualidad/1642176540_238488.html</link>
+            <url>https://www.google.com/s2/favicons?domain=https://as.com</url>
+            <title>COVID | Alemania, perpleja con España - AS.com</title>
+        </image>
+
+    <item>
+        <title>Alemania, perpleja con España</title>
+        <link>https://as.com/diarioas/2022/01/14/actualidad/1642176540_238488.html?omnil=resrelrecomv</link>
+        <description>
+        <![CDATA[ <img src="https://as01.epimg.net/diarioas/imagenes/2022/01/14/actualidad/1642176540_238488_1642176707_noticia_normal_recorte1.jpg" width="641" height="361"><br><br>El diario 'Die Welt' analizó la gestión de la pandemia por nuestro país. Sobre la incidencia, en 2.989 casos, destaca que "no es un error tipográfico".<br/><br/><span style="font-size:12px; color: gray;">(Feed generated with <a href="https://fetchrss.com" target="_blank">FetchRSS</a>)</span> ]]>
+        </description>
+        <dc:creator>As.com</dc:creator>
+        <pubDate>Sat, 15 Jan 2022 17:43:11 +0000</pubDate>
+        <media:content url="https://as01.epimg.net/diarioas/imagenes/2022/01/14/actualidad/1642176540_238488_1642176707_noticia_normal_recorte1.jpg" medium="image" width="641" height="361"/>
+        <guid isPermaLink="false">https://as.com/diarioas/2022/01/14/actualidad/1642176540_238488.html?omnil=resrelrecomv</guid>
+    </item>
+    </channel>
+
+    <channel>
+        <title>Coronavirus, en directo | Pekín confirma su primer caso de ómicron a tres semanas de los Juegos Olímpicos de Invierno</title>
+        <description>El total de casos de coronavirus registrados en España es de 8.093.036 y la COVID-19 ha provocado 90.759 muertos oficiales.</description>
+        <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
+        <link>https://www.rtve.es/noticias/20220115/coronavirus-covid-directo-espana-mundo-ultima-hora/2256760.shtml</link>
+        <atom:link href="http://fetchrss.com/rss/61e307ccca5ef0660a52eda261e3097423b1c3159f6d4932.xml" rel="self" type="application/rss+xml"/>
+        <generator>https://fetchrss.com</generator>
+        <image>
+            <link>https://www.rtve.es/noticias/20220115/coronavirus-covid-directo-espana-mundo-ultima-hora/2256760.shtml</link>
+            <url>https://www.google.com/s2/favicons?domain=https://www.rtve.es</url>
+            <title>Coronavirus, en directo | Pekín confirma su primer caso de ómicron a tres semanas de los Juegos Olímpicos de Invierno</title>
+        </image>
+    
+    <item>
+        <title>Coronavirus, en directo | Pekín confirma su primer caso de ómicron a tres semanas de los Juegos Olímpicos de Invierno</title>
+        <link>https://www.rtve.es/noticias/20220115/coronavirus-covid-directo-espana-mundo-ultima-hora/2256760.shtml</link>
+        <description>
+        <![CDATA[ <img src="https://gacetamedica.com/wp-content/uploads/2020/03/GettyImages-1208161559-scaled.jpg"><br><br><p>El presidente del Gobierno, Pedro Sánchez, ha afirmado que la vacuna española del coronavirus <strong>podría estar lista en el primer semestre de 2022</strong>, y ha acortado <a href="https://www.rtve.es/noticias/20220104/coronavirus-vacuna-espanola-presenta-buenos-resultados-omicron/2248500.shtml">los plazos de producción que se barajaban hasta el momento</a> para finales de año. </p><p>La empresa Hipra, con sede en Amer (Girona), trabaja en un modelo propio de vacuna <strong>del que se prevén 600 millones de dosis </strong>y produce un refuerzo para personas que han recibido previamente la vacuna de Pfizer.</p><p>La explosión de contagios ha llevado a millones de ciudadanos a recurrir a los autotest de diagnóstico para comprobar si están infectados. De hecho, el <strong>límite del precio de los test de antígenos de la COVID-19, de 2,94 euros</strong>, acordado por la Comisión Interministerial de Precios de los Medicamentos se ha publicado en el Boletín Oficial del Estado, y la medida anunciada por la ministra de Sanidad Carolna Darias, ha entrado en vigor este sábado. </p><p>Pekín ha confirmado <strong>su primer caso local de la variante ómicron</strong>  a menos de tres semanas para que empiecen los Juegos Olímpicos de Invierno en la capital china, evento que las autoridades tratan de proteger a toda costa mediante su estrategia de "tolerancia cero" contra la COVID.</p><p>En todo el mundo, el nuevo coronavirus, el COV-SARS-2, y la enfermedad que provoca, la COVID-19, deja ya <strong>más de 320 millones de casos, con cerca de 5,5 millones de muertos</strong>.</p><br/><br/><span style="font-size:12px; color: gray;">(Feed generated with <a href="https://fetchrss.com" target="_blank">FetchRSS</a>)</span> ]]>
+        </description>
+        <dc:creator>ANA BELÉN GARCÍA FLORES</dc:creator>
+        <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
+        <media:content url="https://gacetamedica.com/wp-content/uploads/2020/03/GettyImages-1208161559-scaled.jpg" medium="image"/>
+        <guid isPermaLink="false">https://www.rtve.es/noticias/20220115/coronavirus-covid-directo-espana-mundo-ultima-hora/2256760.shtml</guid>
+    </item>
     </channel>
 </rss>
