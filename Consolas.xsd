@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="Consolas">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Consola" type="xs:string"/>
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Plataforma" type="xs:string"/>
+            <xsd:element name="Versión" type="xs:string"/>
+            <xsd:element name="Juegos"/>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="Acción"/>
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="Nombre"/>
+                  </xsd:sequence>
+                </xsd:complexType>
+                <xsd:element name="Rol"/>
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="Nombre"/>
+                  </xsd:sequence>
+                </xsd:complexType>
+                <xsd:element name="Arcade"/>
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="Nombre"/>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:sequence>
+            </xsd:complexType>
+            <xsd:element name="Feclanzamiento" type="xs:date"/>
+            <xsd:element name="Exito"/>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="Ventas"/>
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="Numero"/>
+                    <xsd:element name="Mes" type="string"/>
+                    <xsd:element name="Anno"/>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</consolas>
