@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xsd:Consolas xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <xsd:element name="Consolas" maxOccurs="unbounded">
+  <xsd:element name="Consolas">
     <xsd:complexType>
       <xsd:sequence>
         <xsd:element name="Consola" maxOccurs="unbounded" type="xs:string"/>
