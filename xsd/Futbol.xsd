@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="equipos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="equipos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="equipo">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string"/>
+                                        <xs:element name="Copas" type="xs:integer"/>
+                                        <xs:element name="Jugadores">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Pichichi">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="Nombre" type="xs:string"/>
+                                                                <xs:element name="FechaNacimiento" type="xs:date"/>
+                                                                <xs:element name="Goles" type="xs:integer"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="Tarjetas">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="Amarillas" type="xs:integer"/>
+                                                                <xs:element name="Rojas" type="xs:integer"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="Equipacion">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="Primera" type="xs:string"/>
+                                                                <xs:element name="Segunda" type="xs:string"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="Partidosjugados">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Ganados" type="xs:integer"/>
+                                                    <xs:element name="Empatados" type="xs:integer"/>
+                                                    <xs:element name="Perdidos" type="xs:integer"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="Estadio">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Nombre" type="xs:string"/>
+                                                    <xs:element name="Capacidad" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
