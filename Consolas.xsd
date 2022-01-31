@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <xsd:element name="Consolas">
+<Consolas xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="Consolas" maxOccurs="unbounded">
     <xsd:complexType>
       <xsd:sequence>
-        <xsd:element name="Consola" type="xs:string"/>
+        <xsd:element name="Consola" maxOccurs="unbounded" type="xs:string"/>
         <xsd:complexType>
           <xsd:sequence>
             <xsd:element name="Plataforma" type="xs:string"/>
@@ -50,4 +50,4 @@
       </xsd:sequence>
     </xsd:complexType>
   </xsd:element>
-</consolas>
+</Consolas>

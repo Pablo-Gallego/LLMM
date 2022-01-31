@@ -1,6 +1,14 @@
 <?xml version="1.0"?>
-<consolas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Consolas.xsd">
+<consolas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+xsi:noNamespaceSchemaLocation="Consolas.xsd">
     <consola>
-        <Plataforma></Plataforma>
+        <Plataforma>Ps</Plataforma>
+        <Versión></Versión>
+        <Juegos>
+            <Acción>Nombre 1</Acción>
+            <Rol>Nombre 2</Rol>
+            <Arcade>Nombre 3</Arcade>
+        </Juegos>
+
     </consola>
 </consolas>
