@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<consolas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+<xmlns:Consolas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
 xsi:noNamespaceSchemaLocation="Consolas.xsd">
     <consola>
         <Plataforma>Ps</Plataforma>
@@ -11,4 +11,4 @@ xsi:noNamespaceSchemaLocation="Consolas.xsd">
         </Juegos>
 
     </consola>
-</consolas>
+</xmlns:Consolas>
