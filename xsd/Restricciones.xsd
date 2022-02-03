@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="restricciones">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="persona">
+          <xs:complexType>
+            <xs:all>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="apellidos" type="xs:string"/>
+              <!--Edad con un minimo y un maximo-->
+              <xs:element name="edad">
+                <xs:simpleType>
+                  <xs:restriction base="xs:integer">
+                    <xs:minInclusive value="18"/>
+                    <xs:maxInclusive value="100"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <!--Hasta aqui edad-->
+            </xs:all>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="empresa">
+          <xs:complexType>
+            <xs:choice>
+              <xs:element name="empleado" type="xs:string"/>
+              <xs:element name="miembro" type="xs:string"/>
+            </xs:choice>
+          </xs:complexType>
+        </xs:element><!-- Ejemplo valores numericos -->
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
