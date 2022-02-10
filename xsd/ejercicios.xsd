@@ -60,6 +60,7 @@
                 </xs:simpleType>
               </xs:element>
             </xs:sequence>
+            <xs:attribute name="id" type="sexos"/>
           </xs:complexType>
         </xs:element>
       </xs:sequence>
@@ -85,4 +86,11 @@
       <xs:enumeration value="v1@gr@"/>
     </xs:restriction>
   </xs:simpleType>
+  
+  <xs:simpleType name="sexos">
+        <xs:restriction base="xs:integer">
+            <xs:enumeration value="0"/>
+            <xs:enumeration value="1"/>
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>

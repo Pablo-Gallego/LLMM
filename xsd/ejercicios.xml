@@ -14,7 +14,7 @@
 
   <gmail2>_pepe87@gmail.com</gmail2>
 
-  <sexo>
+  <sexo id="1">
     <femenino></femenino>
     <masculino></masculino>
   </sexo>
