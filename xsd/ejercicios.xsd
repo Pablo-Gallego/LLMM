@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Ejercicios">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="telefono">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="[+][0-9]{11}"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+
+        <xs:element name="password">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:minLength value="5"/>
+              <xs:maxLength value="8"/>
+              <xs:pattern value="[a-zA-Z0-9]{8}"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+
+        <xs:element name="DNI">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="[0-9]{8}[a-zA-Z]"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+
+        <xs:element name="expresion" type="expresiones"/>
+
+        <xs:element name="viagra" type="variacionesviagra"/>
+        
+        <xs:element name="gmail">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="[a-z0-9]*[@][a-z]*[.][a-z]*"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:simpleType name="expresiones">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="tonteria"/>
+      <xs:enumeration value="maldito"/>
+      <xs:enumeration value="caray"/>
+      <xs:enumeration value="caramba"/>
+      <xs:enumeration value="madre"/>
+      <xs:enumeration value="mia"/>
+      <xs:enumeration value="ostras"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="variacionesviagra">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="v1agra"/>
+      <xs:enumeration value="vi@gra"/>
+      <xs:enumeration value="v1@gra"/>
+      <xs:enumeration value="v1@gr@"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
