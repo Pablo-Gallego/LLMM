@@ -13,4 +13,10 @@
   <gmail>pepe87@gmail.com</gmail>
 
   <gmail2>_pepe87@gmail.com</gmail2>
+
+  <sexo>
+    <femenino></femenino>
+    <masculino></masculino>
+  </sexo>
+
 </Ejercicios>

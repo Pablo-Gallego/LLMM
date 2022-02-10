@@ -10,7 +10,6 @@
             </xs:restriction>
           </xs:simpleType>
         </xs:element>
-
         <xs:element name="password">
           <xs:simpleType>
             <xs:restriction base="xs:string">
@@ -20,7 +19,6 @@
             </xs:restriction>
           </xs:simpleType>
         </xs:element>
-
         <xs:element name="DNI">
           <xs:simpleType>
             <xs:restriction base="xs:string">
@@ -28,11 +26,8 @@
             </xs:restriction>
           </xs:simpleType>
         </xs:element>
-
         <xs:element name="expresion" type="expresiones"/>
-
         <xs:element name="viagra" type="variacionesviagra"/>
-        
         <xs:element name="gmail">
           <xs:simpleType>
             <xs:restriction base="xs:string">
@@ -40,7 +35,6 @@
             </xs:restriction>
           </xs:simpleType>
         </xs:element>
-
         <xs:element name="gmail2">
           <xs:simpleType>
             <xs:restriction base="xs:string">
@@ -48,7 +42,26 @@
             </xs:restriction>
           </xs:simpleType>
         </xs:element>
-        
+        <xs:element name="sexo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="femenino" default="f">
+                <xs:simpleType >
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="f|F|Mujer|M|femenino" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="masculino" default="m">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:pattern value="m|M|Hombre|H|masculino"/>
+                    </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -64,7 +77,6 @@
       <xs:enumeration value="ostras"/>
     </xs:restriction>
   </xs:simpleType>
-  
   <xs:simpleType name="variacionesviagra">
     <xs:restriction base="xs:string">
       <xs:enumeration value="v1agra"/>
