@@ -3,24 +3,18 @@
   <xs:element name="resumenes">
     <xs:complexType>
       <xs:sequence>
-
         <xs:element name="ConjuntoSimples">
-          <xs:complexType>
+          <xs:complexType>    
             <xs:all>
-              <xs:element name="sinAtributo" type="xs:string"/>
-              <!-- Tipos: integer, string, date, etc-->
-              <xs:element name="sinAtributoTipoSimple" type="xs:date"/>
-                      <!-- Tipos: integer, string, date, etc-->
+              <xs:element name="sinAtributo" type="xs:string"/><!-- Tipos: integer, string, date, etc-->
+              <xs:element name="sinAtributoTipoSimple" type="xs:date"/><!-- Tipos: integer, string, date, etc-->
               <xs:element name="sinAtributoTipoDefinido" type="ciudad"/>
-
             </xs:all>
           </xs:complexType>
         </xs:element>
-
         <xs:element name="ConjuntoComplejos">
-          <xs:complexType>
-            <xs:all>
-                <!-- Sin atributos con tipos base-->
+          <xs:complexType><!-- Sin atributos con tipos base-->
+            <xs:all><!-- uso del xs:all= que aparezca una vez, da igual el oreden-->
               <xs:element name="Elemento1">
                 <xs:complexType>
                   <xs:sequence>
@@ -39,7 +33,7 @@
                   <xs:attribute name="id" type="xs:integer"/>
                 </xs:complexType>
               </xs:element>
-            
+
               <xs:element name="Elemento3">
                 <xs:complexType>
                   <xs:sequence>
@@ -62,35 +56,42 @@
           </xs:complexType>
         </xs:element>
 
-        <xs:element name="telefono">
-          <xs:simpleType>
-            <xs:restriction base="xs:string">
-              <xs:pattern value="([+][0-9]{11})*"/>
-            </xs:restriction>
-          </xs:simpleType>
+        <xs:element name="Secuencia">
+          <xs:complexType>
+            <xs:sequence><!--Puede tener min y maxOccurs--><!-- uso del xs:sequence= tiene que aparecer en ese orden-->
+              
+              <xs:element name="telefono">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="([+][0-9]{11})*"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+
+              <xs:element name="contrasena">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:minLength value="5"/>
+                    <xs:maxLength value="8"/>
+                    <xs:pattern value="[a-zA-Z0-9]{8}"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+
+            </xs:sequence>
+          </xs:complexType>
         </xs:element>
 
-        <xs:element name="contrasena">
-          <xs:simpleType>
-            <xs:restriction base="xs:string">
-              <xs:minLength value="5"/>
-              <xs:maxLength value="8"/>
-              <xs:pattern value="[a-zA-Z0-9]{8}"/>
-            </xs:restriction>
-          </xs:simpleType>
-        </xs:element>
-
-        <xs:choice>
-        <xs:element name="pokemon" type="juegospokemon" minOccurs="1" maxOccurs="unbounded"/>
-        <xs:element name="digimon" type="juegosdigimon"/>
+        <xs:choice><!-- uso del xs:choice= tiene que aparecer solamente 1-->
+          <xs:element name="pokemon" type="juegospokemon" minOccurs="1" maxOccurs="unbounded"/>
+          
+          <xs:element name="digimon" type="juegosdigimon"/>
         </xs:choice>
 
       </xs:sequence>
     </xs:complexType>
-  </xs:element>
-
-<!-- Definiciones-->
-  <!-- Tipo "Dirección"-->
+  </xs:element><!-- Definiciones--><!-- Tipo "Dirección"-->
+  
   <xs:simpleType name="ciudad">
     <xs:restriction base="xs:string">
       <xs:enumeration value="Sevilla"/>
@@ -103,7 +104,7 @@
       <xs:enumeration value="Almeria"/>
     </xs:restriction>
   </xs:simpleType>
-  
+
   <xs:complexType name="direccion">
     <xs:sequence>
       <xs:element name="localicad" type="xs:string"/>
@@ -111,7 +112,7 @@
       <xs:element name="ciudad" type="ciudad"/>
     </xs:sequence>
   </xs:complexType>
-    
+
   <xs:complexType name="juego">
     <xs:sequence>
       <xs:element name="localicad" type="xs:string"/>
@@ -130,7 +131,7 @@
       <xs:enumeration value="Negro"/>
     </xs:restriction>
   </xs:simpleType>
-  
+
   <xs:simpleType name="juegosdigimon">
     <xs:restriction base="xs:string">
       <xs:enumeration value="1"/>
@@ -138,5 +139,4 @@
       <xs:enumeration value="3"/>
     </xs:restriction>
   </xs:simpleType>
-
 </xs:schema>
