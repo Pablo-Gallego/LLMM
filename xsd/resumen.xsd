@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="resumenes">
+    <xs:complexType>
+      <xs:sequence>
+
+        <xs:element name="ConjuntoSimples">
+          <xs:complexType>
+            <xs:all>
+              <xs:element name="sinAtributo" type="xs:string"/>
+              <!-- Tipos: integer, string, date, etc-->
+              <xs:element name="sinAtributoTipoSimple" type="xs:date"/>
+                      <!-- Tipos: integer, string, date, etc-->
+              <xs:element name="sinAtributoTipoDefinido" type="ciudad"/>
+
+            </xs:all>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="ConjuntoComplejos">
+          <xs:complexType>
+            <xs:all>
+                <!-- Sin atributos con tipos base-->
+              <xs:element name="Elemento1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="subElemento1" type="xs:string"/>
+                    <xs:element name="subElemento2" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element name="Elemento2">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="subElemento1" type="xs:string"/>
+                    <xs:element name="subElemento2" type="xs:string"/>
+                  </xs:sequence>
+                  <xs:attribute name="id" type="xs:integer"/>
+                </xs:complexType>
+              </xs:element>
+            
+              <xs:element name="Elemento3">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="subElemento1" type="xs:string"/>
+                    <xs:element name="subElemento2" type="direccion"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element name="Elemento4">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="subElemento1" type="xs:string"/>
+                    <xs:element name="subElemento2" type="juego"/>
+                  </xs:sequence>
+                  <xs:attribute name="id" type="xs:integer"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:all>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="telefono">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="([+][0-9]{11})*"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+
+        <xs:element name="contrasena">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:minLength value="5"/>
+              <xs:maxLength value="8"/>
+              <xs:pattern value="[a-zA-Z0-9]{8}"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+
+        <xs:choice>
+        <xs:element name="pokemon" type="juegospokemon" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="digimon" type="juegosdigimon"/>
+        </xs:choice>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+<!-- Definiciones-->
+  <!-- Tipo "Dirección"-->
+  <xs:simpleType name="ciudad">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Sevilla"/>
+      <xs:enumeration value="Cordoba"/>
+      <xs:enumeration value="Malaga"/>
+      <xs:enumeration value="Granada"/>
+      <xs:enumeration value="Huelva"/>
+      <xs:enumeration value="Jaen"/>
+      <xs:enumeration value="Cadiz"/>
+      <xs:enumeration value="Almeria"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:complexType name="direccion">
+    <xs:sequence>
+      <xs:element name="localicad" type="xs:string"/>
+      <xs:element name="CP" type="xs:integer"/>
+      <xs:element name="ciudad" type="ciudad"/>
+    </xs:sequence>
+  </xs:complexType>
+    
+  <xs:complexType name="juego">
+    <xs:sequence>
+      <xs:element name="localicad" type="xs:string"/>
+      <xs:element name="CP" type="xs:integer"/>
+      <xs:element name="ciudad" type="ciudad"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="juegospokemon">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Rojo"/>
+      <xs:enumeration value="Verde"/>
+      <xs:enumeration value="Azul"/>
+      <xs:enumeration value="Amarillo"/>
+      <xs:enumeration value="Blanco"/>
+      <xs:enumeration value="Negro"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="juegosdigimon">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="1"/>
+      <xs:enumeration value="2"/>
+      <xs:enumeration value="3"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

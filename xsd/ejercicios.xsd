@@ -78,6 +78,7 @@
       <xs:enumeration value="ostras"/>
     </xs:restriction>
   </xs:simpleType>
+  
   <xs:simpleType name="variacionesviagra">
     <xs:restriction base="xs:string">
       <xs:enumeration value="v1agra"/>
