@@ -1,53 +1,48 @@
-<?xml version="1.0"?>
-<xsd:Consolas xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <xsd:element name="Consolas">
-    <xsd:complexType>
-      <xsd:sequence>
-        <xsd:element name="Consola" maxOccurs="unbounded" type="xs:string"/>
-        <xsd:complexType>
-          <xsd:sequence>
-            <xsd:element name="Plataforma" type="xs:string"/>
-            <xsd:element name="Versión" type="xs:string"/>
-            <xsd:element name="Juegos"/>
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="Acción"/>
-                <xsd:complexType>
-                  <xsd:sequence>
-                    <xsd:element name="Nombre"/>
-                  </xsd:sequence>
-                </xsd:complexType>
-                <xsd:element name="Rol"/>
-                <xsd:complexType>
-                  <xsd:sequence>
-                    <xsd:element name="Nombre"/>
-                  </xsd:sequence>
-                </xsd:complexType>
-                <xsd:element name="Arcade"/>
-                <xsd:complexType>
-                  <xsd:sequence>
-                    <xsd:element name="Nombre"/>
-                  </xsd:sequence>
-                </xsd:complexType>
-              </xsd:sequence>
-            </xsd:complexType>
-            <xsd:element name="Feclanzamiento" type="xs:date"/>
-            <xsd:element name="Exito"/>
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="Ventas"/>
-                <xsd:complexType>
-                  <xsd:sequence>
-                    <xsd:element name="Numero"/>
-                    <xsd:element name="Mes" type="string"/>
-                    <xsd:element name="Anno"/>
-                  </xsd:sequence>
-                </xsd:complexType>
-              </xsd:sequence>
-            </xsd:complexType>
-          </xsd:sequence>
-        </xsd:complexType>
-      </xsd:sequence>
-    </xsd:complexType>
-  </xsd:element>
-</xsd:Consolas>
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="consolas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="consola" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="plataforma" type="xs:string"/>
+                            <xs:element name="version" type="xs:string"/>
+                            <xs:element name="juegos">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="accion" type="xs:string">
+                                            
+                                        </xs:element>
+                                        <xs:element name="rol" type="xs:string">
+                                            
+                                        </xs:element>
+                                        <xs:element name="arcade" type="xs:string">
+                                            
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="fechaLanzamiento" type="xs:date"/>
+                            <xs:element name="exito">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="ventas">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="numero" type="xs:integer"/>
+                                                    <xs:element name="mes" type="xs:string"/>
+                                                    <xs:element name="ano" type="xs:integer"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

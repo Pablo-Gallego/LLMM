@@ -1,14 +1,21 @@
-<?xml version="1.0"?>
-<xmlns:Consolas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<consolas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
 xsi:noNamespaceSchemaLocation="Consolas.xsd">
     <consola>
-        <Plataforma>Ps</Plataforma>
-        <Versión></Versión>
-        <Juegos>
-            <Acción>Nombre 1</Acción>
-            <Rol>Nombre 2</Rol>
-            <Arcade>Nombre 3</Arcade>
-        </Juegos>
-
+        <plataforma>Ps</plataforma>
+        <version>5</version>
+        <juegos>
+            <accion>N1</accion>
+            <rol>N2</rol>
+            <arcade>N3</arcade>
+        </juegos>
+        <fechaLanzamiento>2020-02-02</fechaLanzamiento>
+        <exito>
+            <ventas>
+                <numero>5</numero>
+                <mes>ENERO</mes>
+                <ano>2020</ano>
+            </ventas>
+        </exito>
     </consola>
-</xmlns:Consolas>
+</consolas>
