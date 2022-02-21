@@ -1,36 +1,33 @@
 <?xml version="1.0"?>
-<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="Futbol.xsd">
+<equipos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Futbol.xsd">
     <equipos>
         <equipo>
             <nombre>Betis</nombre>
-            <copas>0</copas>
-            <jugadores>
-                <pichichi>
-                    <nombre>Joaquin</nombre>
-                    <fechaNacimiento>1980-10-10</fechaNacimiento>
-                    <goles>100</goles>
-                    <tarjetas>
-                        <amarillas>1</amarillas>
-                        <rojas>0</rojas>
-                    </tarjetas>
-                </pichichi>
-            </jugadores>
-            <equipacion>
-                <primera>blanco y verde</primera>
-                <segunda>azul y blanca</segunda>
-            </equipacion>
-            <partidos>
-                <jugados>
-                    <ganados>100</ganados>
-                    <perdidos>10</perdidos>
-                    <empatados>50</empatados>
-                </jugados>
-            </partidos>
-            <estadio> 
-                <nombre>Benito Villamarín</nombre>
-                <capacidad>60000</capacidad>
-            </estadio>
+            <Copas>0</Copas>
+            <Jugadores>
+                <Pichichi>
+                    <Nombre>Joaquin</Nombre>
+                    <FechaNacimiento>1980-10-10</FechaNacimiento>
+                    <Goles>100</Goles>
+                </Pichichi>
+                <Tarjetas>
+                    <Rojas>0</Rojas>
+                    <Amarillas>1</Amarillas>
+                </Tarjetas>
+                <Equipacion>
+                    <Primera>blanco y verde</Primera>
+                    <Segunda>azul y blanca</Segunda>
+                </Equipacion>
+            </Jugadores>
+            <Partidosjugados>
+                <Ganados>100</Ganados>
+                <Empatados>10</Empatados>
+                <Perdidos>50</Perdidos>
+            </Partidosjugados>
+            <Estadio>
+                <Nombre>Benito Villamarín</Nombre>
+                <Capacidad>60000</Capacidad>
+            </Estadio>
         </equipo>
     </equipos>
-</xs:schema>
+</equipos>
