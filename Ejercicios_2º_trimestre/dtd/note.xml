@@ -2,7 +2,10 @@
 <!DOCTYPE note SYSTEM "note.dtd">
 <note>
   <to>Tove</to>
-  <from>Jani</from>
+  <from>
+      <email>email@gmail.com</email>
+      <nombre>Pablo</nombre>
+  </from>
   <heading>Reminder</heading>
   <body>
       <mensaje>hola</mensaje>
