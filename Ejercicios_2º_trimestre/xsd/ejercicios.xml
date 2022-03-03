@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Ejercicios xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejercicios.xsd">
+  <telefono>+34123456789</telefono>
+  
+  <password>Aa123456</password>
+  
+  <DNI>12345678A</DNI>
+  
+  <expresion>caray</expresion>
+  
+  <viagra>v1agra</viagra>
+  
+  <gmail>pepe87@gmail.com</gmail>
+
+  <gmail2>_pepe87@gmail.com</gmail2>
+
+  <sexo id="1">
+    <femenino></femenino>
+    <masculino></masculino>
+  </sexo>
+
+</Ejercicios>
