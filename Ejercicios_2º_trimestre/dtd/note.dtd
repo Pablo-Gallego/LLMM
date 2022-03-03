@@ -1,5 +1,10 @@
 <!ELEMENT note (to, from, heading, body)>
-<!ELEMENT to (#PCDATA)>
+<!ELEMENT to (#PCDATA)><!-- PCDATA introducira -->
 <!ELEMENT from (#PCDATA)>
 <!ELEMENT heading (#PCDATA)>
-<!ELEMENT body (#PCDATA)>
+<!ELEMENT body (mensaje, fecha)><!--cambio PCDATA a los elementos que contiene-->
+<!ELEMENT mensaje (#PCDATA)>
+<!ELEMENT fecha (dia, mes, ano)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT ano (#PCDATA)>
