@@ -2,10 +2,10 @@
 <!DOCTYPE TVSCHEDULE SYSTEM "ejemplos.dtd">
 <TVSCHEDULE NAME="Programación">
     <CHANNEL CHAN="Telecinco">
-    <BANNER>5</BANNER>
+        <BANNER>5</BANNER>
         <DAY>
             <DATE>01/01/2020</DATE>
-            <HOLIDAY>AYER</HOLIDAY>
+            <HOLIDAY>Si</HOLIDAY>
             <PROGRAMSLOT VTR="Dato">
                 <TIME>Ayer</TIME>
                 <TITLE LANGUAGE="Espanol" RATING="10/10">Dragon ball</TITLE>
