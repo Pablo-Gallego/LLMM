@@ -1,11 +1,11 @@
 <!ELEMENT Futbol (equipos)>
 <!ELEMENT equipos (equipo)>
-    <!ELEMENT equipo ((Nombre)+, Copas, Jugadores, Partidosjugados, Estadio)>
+    <!ELEMENT equipo (Nombre, Copas, Jugadores, Partidosjugados, Estadio)>
         <!ELEMENT Nombre (#PCDATA)>
         <!ELEMENT Copas (#PCDATA)>
         <!ELEMENT Jugadores (Pichichi, Tarjetas, Equipacion )>
-            <!ELEMENT Pichichi ((Nombre)+, FechaNacimiento, Goles)>
-                <!ELEMENT Nombre (#PCDATA)>
+            <!ELEMENT Pichichi (NombrePi, FechaNacimiento, Goles)>
+                <!ELEMENT NombrePi (#PCDATA)>
                 <!ELEMENT FechaNacimiento (#PCDATA)>
                 <!ELEMENT Goles (#PCDATA)>
 
@@ -22,6 +22,6 @@
             <!ELEMENT Empatados (#PCDATA)>
             <!ELEMENT Perdidos (#PCDATA)>
 
-        <!ELEMENT Estadio (Nombre, Capacidad)>
-            <!ELEMENT Nombre (#PCDATA)>
+        <!ELEMENT Estadio (NombreEs, Capacidad)>
+            <!ELEMENT NombreEs (#PCDATA)>
             <!ELEMENT Capacidad (#PCDATA)>
