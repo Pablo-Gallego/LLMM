@@ -55,7 +55,7 @@
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="Nombre" type="xs:string"/>
-                                                    <xs:element name="Capacidad" type="xs:string"/>
+                                                    <xs:element name="Capacidad" type="xs:integer"/>
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
