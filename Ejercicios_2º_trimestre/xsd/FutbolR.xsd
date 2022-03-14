@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="equipos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="equipos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="equipo">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string"/>
+                                        <xs:element name="copas" type="xs:integer"/>
+                                        <xs:element ref="jugadores"/>
+                                        <xs:element ref="equipacion"/>
+                                        <xs:element ref="partidos"/>
+                                        <xs:element ref="estadio"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!--definicion jugadores-->
+    <xs:element name="jugadores">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pichichi">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="fechaNacimiento" type="xs:date"/>
+                            <xs:element name="goles" type="xs:integer"/>
+                            <xs:element name="tarjetas">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="amarillas" type="xs:integer"/>
+                                        <xs:element name="rojas" type="xs:integer"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!--definicion equipacion-->
+    <xs:element name="equipacion">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="primera" type="xs:string"/>
+                <xs:element name="segunda" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!--definicion partido-->
+    <xs:element name="partidos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="jugados">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ganados" type="xs:integer"/>
+                            <xs:element name="perdidos" type="xs:integer"/>
+                            <xs:element name="empatados" type="xs:integer"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!--definicion estadio-->
+    <xs:element name="estadio">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="xs:string"/>
+                <xs:element name="capacidad" type="xs:integer"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
