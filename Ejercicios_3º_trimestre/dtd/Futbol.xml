@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE Futbol SYSTEM "Futbol.dtd">
+<Futbol>
+    <equipos>
+        <equipo>
+            <Nombre>Betis</Nombre>
+            <Copas>0</Copas>
+            <Jugadores>
+                <Pichichi>
+                    <NombrePi>Joaquin</NombrePi>
+                    <FechaNacimiento>1980-10-10</FechaNacimiento>
+                    <Goles>100</Goles>
+                </Pichichi>
+                <Tarjetas>
+                    <Rojas>0</Rojas>
+                    <Amarillas>1</Amarillas>
+                </Tarjetas>
+                <Equipacion>
+                    <Primera>blanco y verde</Primera>
+                    <Segunda>azul y blanca</Segunda>
+                </Equipacion>
+            </Jugadores>
+            <Partidosjugados>
+                <Ganados>100</Ganados>
+                <Empatados>10</Empatados>
+                <Perdidos>50</Perdidos>
+            </Partidosjugados>
+            <Estadio>
+                <NombreEs>Benito Villamarín</NombreEs>
+                <Capacidad>60000</Capacidad>
+            </Estadio>
+        </equipo>
+    </equipos>
+</Futbol>

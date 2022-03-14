@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE TVSCHEDULE SYSTEM "ejemplos.dtd">
+<TVSCHEDULE NAME="Programación">
+    <CHANNEL CHAN="Telecinco">
+        <BANNER>5</BANNER>
+        <DAY>
+            <DATE>01/01/2020</DATE>
+            <HOLIDAY>Si</HOLIDAY>
+            <PROGRAMSLOT VTR="Dato">
+                <TIME>Ayer</TIME>
+                <TITLE LANGUAGE="Espanol" RATING="10/10">Dragon ball</TITLE>
+                <DESCRIPTION>Ultimo capitulo de la temporada</DESCRIPTION>
+            </PROGRAMSLOT>
+        </DAY>
+    </CHANNEL>
+</TVSCHEDULE>

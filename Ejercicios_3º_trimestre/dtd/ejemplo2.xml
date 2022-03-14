@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE NEWSPAPER SYSTEM "ejemplo2.dtd">
+<NEWSPAPER>
+    <ARTICLE AUTHOR="Vervet Logic Times" EDITION="Nueva" EDITOR="Paco" DATE="Hoy">
+        <HEADLINE>Hoy</HEADLINE>
+        <BYLINE>No</BYLINE>
+        <LEAD>Se</LEAD>
+        <BODY>Trabaja</BODY>
+        <NOTES>mas</NOTES>
+    </ARTICLE>
+</NEWSPAPER>
