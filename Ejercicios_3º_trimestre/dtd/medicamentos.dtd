@@ -1,0 +1,16 @@
+<!ELEMENT medicamentos (medicamento+)>
+<!ELEMENT medicamento (nombre,administrador,dosis)>
+    <!ELEMENT nombre (generico,comercial+)>
+        <!ELEMENT generico (#PCDATA)>
+        <!ELEMENT comercial (#PCDATA)>
+    <!ELEMENT administrador (tiemposiguiente)>
+        <!ELEMENT tiemposiguiente (horas)>
+            <!ELEMENT horas (#PCDATA)>
+    <!ELEMENT dosis (cantidad)>
+        <!ELEMENT cantidad (g|mg)>
+            <!ELEMENT g (#PCDATA)>
+            <!ELEMENT mg (#PCDATA)>
+
+<!--Atributos-->
+<!ATTLIST nombre id CDATA #REQUIRED>
+<!ATTLIST administrador tipo (intramuscular|oral) "">

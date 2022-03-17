@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE medicamentos SYSTEM "medicamentos.dtd">
+<medicamentos>
+    <medicamento>
+    <nombre id="1">
+        <generico>espidifen</generico>
+        <comercial>dalsy</comercial>
+    </nombre>
+    <administrador tipo="oral">
+        <tiemposiguiente>
+            <horas>8</horas>
+        </tiemposiguiente>
+    </administrador><!--Solo admite el tipo de datos de cadena de texto, por eso el contenido es CDATA y no se le pueden poner condiciones. -->
+    <dosis>
+        <cantidad>
+            <g>1</g>
+        </cantidad>
+    </dosis>
+    </medicamento>
+    <medicamento>
+        <nombre id="2">
+            <generico>espidifen</generico>
+            <comercial>espidifen</comercial>
+            <comercial>rapidin</comercial>
+        </nombre>
+        <administrador tipo="intramuscular">
+            <tiemposiguiente>
+                <horas>12</horas>
+            </tiemposiguiente>
+        </administrador>
+        <dosis>
+            <cantidad>
+                <mg>0,5</mg>
+            </cantidad>
+        </dosis>
+    </medicamento>
+</medicamentos>
