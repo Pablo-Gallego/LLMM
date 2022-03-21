@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE formas [
+   <!--Elementos-->
+   <!ELEMENT formas (forma_geometrica+)><!--forma_geometrica se puede repetir o aparecer 1 sola vez-->
+   <!ELEMENT forma_geometrica ((cuadrado | rombo | circulo | triangulo | otra),caracteristicas)><!-- aparece cuadrado o rombo o circulo o triangulo u otra una sola vez-->
+      <!ELEMENT cuadrado (#PCDATA)>
+      <!ELEMENT rombo (#PCDATA)>
+      <!ELEMENT circulo (#PCDATA)>
+      <!ELEMENT triangulo (#PCDATA)>
+      <!ELEMENT otra (#PCDATA)>
+   <!ELEMENT caracteristicas (color,tipo)>
+      <!ELEMENT color (#PCDATA)>
+      <!ELEMENT tipo (#PCDATA)>
+
+   <!--Atributos-->
+   <!ATTLIST cuadrado LADOS CDATA #REQUIRED><!--Cuando el atributo es REQUIRED tiene que haber atributo obligatoriamente-->
+   <!ATTLIST rombo LADOS CDATA #REQUIRED>
+   <!ATTLIST circulo LADOS CDATA #IMPLIED><!--Cuando el atributo es IMPLIED puede no haber atributo-->
+   <!ATTLIST triangulo LADOS CDATA #REQUIRED>
+   <!ATTLIST otra LADOS CDATA #IMPLIED>
+]>
+
+<formas>
+   <forma_geometrica>
+      <cuadrado LADOS="4">mesa</cuadrado>
+      <caracteristicas>
+         <color>rojo</color>
+         <tipo>3D</tipo>
+      </caracteristicas>
+   </forma_geometrica>
+
+   <forma_geometrica>
+      <rombo LADOS="4">rombo</rombo>
+      <caracteristicas>
+         <color>naranja</color>
+         <tipo>plana</tipo>
+      </caracteristicas>
+   </forma_geometrica>
+
+   <forma_geometrica>
+      <circulo>mesa</circulo>
+      <caracteristicas>
+         <color>naranja</color>
+         <tipo>plana</tipo>
+      </caracteristicas>
+   </forma_geometrica>
+
+   <forma_geometrica>
+      <triangulo LADOS="3">cartabon</triangulo> 
+      <caracteristicas>
+         <color>naranja</color>
+         <tipo>plana</tipo>
+      </caracteristicas>
+   </forma_geometrica>
+
+   <forma_geometrica>
+      <triangulo LADOS="6">hexagono</triangulo> 
+      <caracteristicas>
+         <color>naranja</color>
+         <tipo>plana</tipo>
+      </caracteristicas>
+   </forma_geometrica>
+</formas>
