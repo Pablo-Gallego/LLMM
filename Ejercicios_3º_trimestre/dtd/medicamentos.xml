@@ -2,7 +2,7 @@
 <!DOCTYPE medicamentos SYSTEM "medicamentos.dtd">
 <medicamentos>
     <medicamento>
-    <nombre id="1">
+    <nombre id="Med1">
         <generico>espidifen</generico>
         <comercial>dalsy</comercial>
     </nombre>
@@ -18,7 +18,7 @@
     </dosis>
     </medicamento>
     <medicamento>
-        <nombre id="2">
+        <nombre id="Med2">
             <generico>espidifen</generico>
             <comercial>espidifen</comercial>
             <comercial>rapidin</comercial>

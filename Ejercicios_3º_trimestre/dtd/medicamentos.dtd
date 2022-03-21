@@ -12,5 +12,5 @@
             <!ELEMENT mg (#PCDATA)>
 
 <!--Atributos-->
-<!ATTLIST nombre id CDATA #REQUIRED>
+<!ATTLIST nombre id ID #REQUIRED>
 <!ATTLIST administrador tipo (intramuscular|oral) "">
