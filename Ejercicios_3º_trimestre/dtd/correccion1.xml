@@ -54,7 +54,7 @@
    </forma_geometrica>
 
    <forma_geometrica>
-      <triangulo LADOS="6">hexagono</triangulo> 
+      <otra LADOS="6">hexagono</otra>
       <caracteristicas>
          <color>naranja</color>
          <tipo>plana</tipo>
