@@ -8,12 +8,12 @@
    
    <!--Atributos-->
    <!ATTLIST constante valor CDATA #REQUIRED>
-   <!ATTLIST variable tipo CDATA #REQUIRED>
+   <!ATTLIST variable tipo CDATA #IMPLIED>
 ]>
 
 <declaraciones>
    <constante valor="3.141592">PI</constante>
-   <tipo_de_dato>longitud</tipo_de_dato>
    <variable tipo="real">radio</variable>
-   <variable tipo="formula">area</variable>
+   <variable>area</variable>
+   <variable>longitud</variable>
 </declaraciones>
