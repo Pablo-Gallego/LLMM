@@ -15,8 +15,15 @@
             <th style="text-align:center">year</th>
           </tr>
           <xsl:for-each select="catalogo/cd"><!--for-each select="ruta"-->
-          <xsl:sort select="artist"/>
-          <xsl:sort select="price" data-type="number" order="descending"/>
+          <!--Aqui van los ordenes, los condicionales...-->
+          
+          <!--<xsl:sort select="artist"/><xsl:sort select="price" data-type="number" order="descending"/>-->
+          
+          <!-- filtramos por elementos con cadenas, poniendo = 'valor'-->
+          <!--<xsl:if test="artist='Bob Dylan' and title/@id='2'">-->
+          <!-- Filtramos por atributos de elementos con la @atributo -->
+          <!--<xsl:if test="(price &lt; 10 and price &gt; 7.5) or price &gt; 12">-->
+          
           <tr>
             <td bgcolor="Silver">
               <xsl:value-of select="number"/>
@@ -40,6 +47,7 @@
               <xsl:value-of select="year"/>
             </td>
           </tr>
+          <!--</xsl:if>-->
           </xsl:for-each>
         </table>
       </body>

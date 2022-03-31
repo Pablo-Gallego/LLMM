@@ -3,7 +3,7 @@
 <catalogo>
   <cd>
     <number>1</number>
-    <title>Empire Burlesque</title>
+    <title id="2">Empire Burlesque</title>
     <artist>Bob Dylan</artist>
     <country>USA</country>
     <company>Columbia</company>
