@@ -29,4 +29,11 @@
       <aula>3</aula>
     </lugar>
   </producto>
+  <producto codigo="P5">
+    <peso unidad="g">400</peso>
+    <nombre>Pantalla</nombre>
+    <lugar edificio="C">
+      <aula>2</aula>
+    </lugar>
+  </producto>
 </inventario>
