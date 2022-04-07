@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  <xsl:template match="/"><!--template para crear plantilla y match para la raiz-->
+  <xsl:template match="/">
     <html>
       <body>
         <ul>
@@ -8,7 +8,7 @@
             <li>Elemento: <xsl:value-of select="./@codigo"/></li>
             <ul>
               <li>Nombre: <xsl:value-of select="nombre"/></li>
-              <li>Peso: <xsl:value-of select="peso"/> <xsl:value-of select="peso/@unidad"/></li>
+              <li>Peso: <xsl:value-of select="peso"/>_<xsl:value-of select="peso/@unidad"/></li>
             </ul>
           </xsl:for-each>
         </ul>
