@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-    <p id="demo"></p>
+<p id="demo"></p>
     <script>
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function () 
@@ -16,7 +16,7 @@
         function showResult(xml) 
         {
             var txt = "";
-            path = "/bookstore/book/title"
+            path = "/bookstore/book[price>35]/price";
             if (xml.evaluate) 
             {
                 var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
@@ -31,4 +31,5 @@
         }
     </script>
 </body>
+
 </html>
