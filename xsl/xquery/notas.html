@@ -17,4 +17,16 @@ para lo de authos hay que poner la ruta hasta autor y dejar solo las variables
 se pueden hacer listas desordenadas(ul) 
 los comentarios son (:comentario:)
 
+data sirve para funciones. coge el contenido del elemento sin coger atributos o viceversa(evaluar elementos)
+
+<li>{data($x/title)}-Categoria: {data($x/@category)}</li> es texto plano y | no sirve para poner más valores, se meten manualmente.
+
+$x /bookstore/book/title
+$i -> incremental (corresponde a cada titulo)
+si tenemos 
+--for $x at $i in doc("books.xml")/bookstore/book/title return <book>{$i}. {data($x)}</book>
+resulta
+--<book>1. Everyday Italian</book>
+--<book>2. Harry Potter</book>
+
 doc("C:\Users\Usuario\Desktop\books.xml")/bookstore/book-->
